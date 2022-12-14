@@ -19,12 +19,29 @@ h1 {
   margin: 50px auto;
   max-width: 640px;
 }
-
+/**
 .container {
   padding: 16px;
   border: 4px solid white;
   border-radius: 8px;
   box-sizing: border-box;
+}
+*/
+.container{
+  min-height: 50px;
+  padding-top: 20px;
+  text-align: center;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA0t44wQafr1q8pZBuxNTLq3UFUVsB_OGQxQix4oqKCw&s');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  clip-path: circle(30px);
+color: transparent;
+
+}
+
+h1{
+  font-size: 100px;
 }
 
 .circle {
